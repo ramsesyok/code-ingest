@@ -1,0 +1,12 @@
+# 最小限の設定ファイル（デフォルト値のテスト用）
+
+input:
+  source_dir: "/tmp/minimal_source"
+
+qdrant:
+  url: "http://localhost:6333"
+
+embedding:
+  model_name: "jinaai/jina-embeddings-v2-base-code"
+  dimension: 768
+  max_length: 8192

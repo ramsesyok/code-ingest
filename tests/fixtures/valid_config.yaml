@@ -1,0 +1,27 @@
+# 有効な設定ファイル（テスト用）
+
+input:
+  source_dir: "/tmp/test_source"
+  ignore_file: ".ragignore"
+
+qdrant:
+  url: "http://localhost:6333"
+  api_key: "${QDRANT_API_KEY}"
+  collection_name: "test-collection"
+
+embedding:
+  model_name: "jinaai/jina-embeddings-v2-base-code"
+  dimension: 768
+  max_length: 8192
+  batch_size: 8
+
+processing:
+  parallel_workers: 4
+  languages:
+    - python
+    - rust
+    - go
+
+logging:
+  level: "INFO"
+  file: "test.log"

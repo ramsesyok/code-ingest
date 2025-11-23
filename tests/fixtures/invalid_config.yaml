@@ -1,0 +1,9 @@
+# 不正な設定ファイル（必須項目が欠けている）
+
+input:
+  source_dir: "/tmp/test_source"
+
+# qdrant セクションが欠けている
+
+embedding:
+  model_name: "jinaai/jina-embeddings-v2-base-code"
