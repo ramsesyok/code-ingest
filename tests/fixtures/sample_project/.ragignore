@@ -1,0 +1,13 @@
+# Test .ragignore file
+
+# Build directories
+build/
+__pycache__/
+
+# Compiled files
+*.pyc
+*.exe
+
+# Test files
+*_test.py
+test_*.py
