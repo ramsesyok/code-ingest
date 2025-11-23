@@ -6,9 +6,11 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 **code-ingest** is a source code RAG (Retrieval-Augmented Generation) indexing system designed for large codebases (100K-1M+ lines). It uses AST-based parsing and vector embeddings to enable semantic code search through Qdrant vector database integration.
 
-**Current Status**: Planning/design phase. The [requirements.md](requirements.md) contains comprehensive specifications, but implementation has not yet begun.
+**Current Status**: Early implementation phase. Project skeleton created with module structure in place. Following TDD (Test-Driven Development) methodology based on [tasks.md](tasks.md).
 
-**Primary Language**: Japanese (documentation), Python 3.11+ (planned implementation)
+**Primary Language**: Japanese (documentation), Python 3.12 (implementation)
+
+**Development Methodology**: Test-Driven Development (TDD) - Red → Green → Refactor cycle
 
 ## Architecture
 
